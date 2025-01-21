@@ -1,0 +1,78 @@
+
+        body{
+            background-color: coral;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        nav{
+            background-color: lightpink;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav ul{
+            display: flex;
+            list-style-type: none;
+        }
+        nav ul li{
+            margin: 0 20px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            font-size: 20px ;
+            font-weight: bold;
+            color: black;
+            padding: 10px 20px;
+            border-radius: 50px;
+        }
+        nav ul li a:hover{
+            background-color: black;
+            color: white;
+        }
+        /*   div{*/
+        /*    background-color: red;*/
+        /*    height: 100px;*/
+        /*}*/
+        .one{
+            background-color: yellow;
+            height: 200px;
+        }
+        .two{
+            background-color: cornflowerblue;
+            height: 300px;
+        }
+        .three{
+            background-color: pink;
+            height: 130px;
+        }
+        #four{
+            background-color: seagreen;
+            height: 130px;
+            color: bisque;
+        }
+        #five{
+            background-color: lightcyan;
+            height: 130px;
+            color: fuchsia;
+        }
+        .background-image{
+            background-image: url("https://cdn.pixabay.com/photo/2024/05/20/14/30/ai-generated-8775433_960_720.png");
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            border-radius: 20px;
+            margin: 20px;
+        }
+        .image-one img {
+            height: 50vh;
+            width: 200px;
+            margin: 10px;
+        }
+
+
+
